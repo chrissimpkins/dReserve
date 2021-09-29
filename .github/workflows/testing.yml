@@ -18,4 +18,4 @@ jobs:
       - name: Python environment report
         run: python -c "import sys; print(sys.version)"
       - name: Run py-dependency-install test
-        uses: py-actions/py-dependency-install@master
+        uses: py-actions/py-dependency-install@v2
